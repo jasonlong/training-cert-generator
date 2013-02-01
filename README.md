@@ -1,17 +1,16 @@
-training-cert-generator
-=======================
-
 Command line tool for generating PDF training certificates.
 
-** Requirements
+Requirements
+============
 
-*** [Prawn](http://prawn.majesticseacreature.com/) for PDF generation
+[Prawn](http://prawn.majesticseacreature.com/) for PDF generation
 `gem install prawn`
 
-*** [Trollop](http://trollop.rubyforge.org/) for command line parsing
+[Trollop](http://trollop.rubyforge.org/) for command line parsing
 `gem install trollop`
 
-** Usage
+Usage
+=====
 ```
        ruby training-cert [options]
 where [options] are:
